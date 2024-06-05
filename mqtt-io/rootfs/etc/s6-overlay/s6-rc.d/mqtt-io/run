@@ -23,5 +23,5 @@ if ! bashio::fs.file_exists "${configuration_file}"; then
     bashio::exit.nok
 fi
 
-bashio::log.info "Starting MQTT IO..."
+bashio::log.info "Starting MQTT IO khs version..."
 exec python3 -m mqtt_io "$(bashio::config 'configuration_file')"
