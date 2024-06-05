@@ -26,7 +26,7 @@ RUN \
     \
     && pip install --upgrade pip==23.0.1 \
     && pip install -r /tmp/requirements.txt \
-    && pip install Adafruit_DHT==1.4.0 --install-option="--force-pi2" \
+    && pip install git+https://github.com/eliotg/Adafruit_Python_DHT \
     \
     && find /usr \
         \( -type d -a -name test -o -name tests -o -name '__pycache__' \) \
