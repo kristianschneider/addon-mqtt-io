@@ -1,6 +1,6 @@
 ---
 name: MQTT IO
-version: khs
+version: khs1
 slug: mqtt-io
 description: Expose GPIO modules and digital sensors via MQTT for remote control and monitoring.
 url: https://github.dev/kristianschneider/addon-mqtt-io
