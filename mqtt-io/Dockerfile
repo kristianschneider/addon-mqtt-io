@@ -26,7 +26,7 @@ RUN \
     \
     && pip install --upgrade pip==23.0.1 \
     && pip install -r /tmp/requirements.txt \
-    && pip install git+https://github.dev/kristianschneider/Adafruit_Python_DHT \
+    && pip install git+https://github.com/kristianschneider/Adafruit_Python_DHT \
     \
     && find /usr \
         \( -type d -a -name test -o -name tests -o -name '__pycache__' \) \
